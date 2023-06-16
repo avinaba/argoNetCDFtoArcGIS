@@ -8,8 +8,9 @@ I was hoping to do quick data-viz with ArcGIS [^arcgis] for they already have to
 
 Unfortunately, I encountered are mismatch in expected import standard.
 
-A week ago Mohamed (mahmed@esri.ca), demonstrated that NetCDF outputs
-from ARGO, does not set the "Coordinates" of their outputs.
+A week ago Mohamed (mahmed@esri.ca), my colleague from ESRI Canada
+ demonstrated that NetCDF outputs from ARGO, does not set the
+"Coordinates" of their outputs.
 
 So, I made this stop-gap Python script pre-process NetCDFs so you may
 may import them as Feature Layers in your ArcGIS project.
