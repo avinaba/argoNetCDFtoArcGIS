@@ -1,19 +1,19 @@
 # Argo-NetCDF for ArcGIS
-Thin pre-processor for NetCDF[^netcdf] files from ARGO project[^argo] to make them compatible with ArcGIS import
+A thin pre-processor for NetCDF files from ARGO project to make them compatible with ArcGIS import.
 
 ## Bit of a history
 I am looking into profile floats data from the ARGO project[^argo], hosted at Global Ocean Data Assimilation Experiment (GODAE) [^GODAE] :
 
-I was hoping to do quick data-viz with ArcGIS [^arcgis] for they already have tools to import NetCDF data as part of their Multidimensional toolkit. [Read more about it in their post](https://pro.arcgis.com/en/pro-app/latest/help/data/multidimensional/a-quick-tour-of-netcdf-data.htm)
+I was hoping to do quick analysis and data-viz with ArcGIS [^arcgis] for they already have built in tools to import NetCDF[^netcdf] data as part of their Multidimensional toolkit. [Read more about it in their post](https://pro.arcgis.com/en/pro-app/latest/help/data/multidimensional/a-quick-tour-of-netcdf-data.htm)
 
-Unfortunately, I encountered are mismatch in expected import standard.
+Unfortunately, there are some mismatch in the expected import standard.
 
 A week ago Mohamed (mahmed@esri.ca), my colleague from ESRI Canada
  demonstrated that NetCDF outputs from ARGO, does not set the
 "Coordinates" of their outputs.
 
-So, I made this stop-gap Python script pre-process NetCDFs so you may
-may import them as Feature Layers in your ArcGIS project.
+So I made this stop-gap Python script pre-process NetCDFs to import
+them as Feature Layers in your ArcGIS project.
 
 ## Pre-Usage
 So far this script has been tested in an Ubuntu 20.04 and Windows 10
