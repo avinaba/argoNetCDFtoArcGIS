@@ -6,7 +6,7 @@ I am looking into profile floats data from the ARGO project[^argo], hosted at Gl
 
 I was hoping to do quick analysis and data-viz with ArcGIS [^arcgis] for they already have built in tools to import NetCDF[^netcdf] data as part of their Multidimensional toolkit. [Read more about it in their post](https://pro.arcgis.com/en/pro-app/latest/help/data/multidimensional/a-quick-tour-of-netcdf-data.htm)
 
-Unfortunately, there are some mismatch in the expected import standard.
+Unfortunately, there is a mismatch in the expected import standard.
 
 A week ago Mohamed (mahmed@esri.ca), my colleague from ESRI Canada
  demonstrated that NetCDF outputs from ARGO, does not set the
@@ -38,7 +38,7 @@ environment.
 
 Pass the NetCDF file as a command line input
 
-Example usage for "sample_ARGO_profile.nc"
+Example usage with sample file: "sample_ARGO_profile.nc"
 ```BASH
 python3 convert_ARGO_CLI.py sample_ARGO_profile.nc --verbose=true
 Openinng :  sample_ARGO_profile.nc
