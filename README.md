@@ -12,8 +12,8 @@ A week ago Mohamed (mahmed@esri.ca), my colleague from ESRI Canada
  demonstrated that NetCDF outputs from ARGO, does not set the
 "Coordinates" of their outputs.
 
-So I made this stop-gap Python script pre-process NetCDFs to import
-them as Feature Layers in your ArcGIS project.
+So I made this stop-gap Python script that pre-processes ARGO NetCDFs
+and makes them compatible with to import as Feature Layers in your ArcGIS project.
 
 ## Pre-Usage
 So far this script has been tested in an Ubuntu 20.04 and Windows 10
