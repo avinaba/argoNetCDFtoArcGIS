@@ -28,7 +28,7 @@ machines with in a Python 3.9 environment with the following libraries:
  conda install -c conda-forge netcdf4
  ```
 For a detailed and maximal list of libraries, open
-https://github.com/avinaba/argoNetCDFtoArcGIS/conda_envs
+https://github.com/avinaba/argoNetCDFtoArcGIS/tree/main/conda_envs
 and replicate my Ubuntu 20.04 or Windows 10 environment.
 
 ## Usage
@@ -62,7 +62,7 @@ optional arguments:
 ```
 
 ## Acknowledgement
-Could not have quickly made this script without the generous
+Could not have made this script quickly without the generous
 contributors of the ArgoPy project https://github.com/euroargodev/argopy/.
 Big shout out for licensing their work under EUPL-1.2.  
 
