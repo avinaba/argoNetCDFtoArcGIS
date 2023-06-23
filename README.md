@@ -25,7 +25,7 @@ machines with in a Python 3.9 environment with the following libraries:
 
  For a minimal install, use the following install lines for conda
  ```BASH
- conda install xarray pandas numpy=1.23.4
+ conda install xarray pandas numpy==1.23.4
  conda install -c conda-forge netcdf4
  ```
 For a detailed and maximal list of libraries, open
