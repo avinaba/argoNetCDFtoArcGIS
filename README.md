@@ -15,7 +15,11 @@ A week ago Mohamed (mahmed@esri.ca), my colleague from ESRI Canada
 So I made this stop-gap Python script that pre-processes ARGO NetCDFs
 and makes them compatible with to import as Feature Layers in your ArcGIS project.
 
-## Pre-Usage
+## ArcGIS Pro toolbox
+Download the "Argo Toolbox.tbx" and add to your project
+https://github.com/avinaba/argoNetCDFtoArcGIS/tree/main/ArcGIS%20Pro%20toolbox
+
+## CLI Pre-Usage
 So far this script has been tested in an Ubuntu 20.04 and Windows 10
 machines with in a Python 3.9 environment with the following libraries:
  * xarray 2022.11.0
@@ -32,7 +36,7 @@ For a detailed and maximal list of libraries, open
 https://github.com/avinaba/argoNetCDFtoArcGIS/tree/main/conda_envs
 and replicate my Ubuntu 20.04 or Windows 10 environment.
 
-## Usage
+## CLI Usage
 Open a terminal or command prompt and activate the appropriate
 environment.
 
